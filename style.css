@@ -2,33 +2,34 @@ body {
   background-color: hsl(212deg, 45%, 89%);
   font-family: "Outfit", sans-serif;
 }
-body #main-card {
+body main {
   max-width: 300px;
   background-color: hsl(0deg, 0%, 100%);
   border-radius: 10px;
-  padding: 20px;
+  padding: 20px 20px 30px 20px;
   margin: 100px auto;
-  height: 500px;
+  height: 450px;
 }
-body #main-card img {
+body main img {
   max-width: 300px;
   border-radius: 10px;
 }
-body #main-card #card-text {
-  margin: 30px 10px;
+body main .card-text {
+  margin: 10px;
   text-align: center;
 }
-body #main-card #card-text h2 {
+body main .card-text h1 {
   color: hsl(218deg, 44%, 22%);
+  font-size: 1.5rem;
 }
-body #main-card #card-text p {
+body main .card-text p {
   color: hsl(220deg, 15%, 55%);
 }
-body #footer {
-  font-size: 11px;
+body footer {
+  font-size: 0.7rem;
   text-align: center;
 }
-body #footer a {
+body footer a {
   color: hsl(228deg, 45%, 44%);
 }
 

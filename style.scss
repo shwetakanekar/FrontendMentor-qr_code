@@ -1,0 +1,48 @@
+$font-family: 'Outfit', sans-serif;
+$light-gray: hsl(212, 45%, 89%);
+$dark-gray: hsl(220, 15%, 55%);
+$darker-gray: hsl(218, 44%, 22%);
+$white: hsl(0, 0%, 100%);
+$blue: hsl(228, 45%, 44%);
+
+body {
+    background-color: $light-gray;
+    font-family: $font-family;
+
+    #main-card {
+        max-width: 300px;
+        background-color: $white;
+        border-radius: 10px;
+        padding: 20px;
+        margin: 100px auto;
+        height: 500px;
+    
+        img {
+            max-width: 300px;
+            border-radius: 10px;
+        }
+        
+        #card-text {
+            margin: 30px 10px;
+            text-align: center;
+        
+            h2 {
+                color: $darker-gray;
+            }
+        
+            p {
+                color: $dark-gray;
+            }
+        }
+    }
+    
+    #footer {
+        font-size: 11px;
+        text-align: center;
+    
+        a {
+            color: $blue;
+        }
+    }
+}
+
